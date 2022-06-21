@@ -19,5 +19,5 @@ from django.urls import include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('gangmini_hompy.urls')) # python manage.py runserver
+    path('',include('gangmini_hompy.urls')), # python manage.py runserve
 ]
