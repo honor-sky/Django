@@ -9,3 +9,9 @@ def index(request):
 '''
 def index(request):
     return render(request,'gangmini_hompy/index.html')
+
+def project(request):
+    return render(request,'gangmini_hompy/project.html')
+
+def study(request):
+    return render(request,'gangmini_hompy/study.html')
